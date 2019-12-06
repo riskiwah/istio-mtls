@@ -1,0 +1,29 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: backend-svc
+spec:
+  selector:
+    app: backend
+  type: ClusterIP
+  ports:
+  - name: flask
+    port: 5000
+    targetPort: 5000
+---
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: backend-dep
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: backend
+    spec:
+      containers:
+      - name: flask
+        image: riskiwah/backend-forecast
+        ports:
+        - containerPort: 5000
