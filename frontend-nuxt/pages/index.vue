@@ -6,7 +6,7 @@
       <div class="row p-3 justify-content-md-center text-center">
         <div class="col-md-6 side-bar">
           <!-- our title part----------------------->
-          <h1 class="title text-light mb-5">Weather App</h1>
+          <h1 class="title text-light mb-5">Simple Weather Apps</h1>
 
           <!-- form part----------------------->
           <form>
@@ -20,7 +20,9 @@
         <div class="col-md-6 content-bar">
           <!-- location result----------------------->
           <div class="row justify-content-md-center dat-table-grip">
-            <h3> Sleman, Indonesia </h3>
+            <h3 class="title-down"> {{ weather.location.name }},
+                 {{ weather.location.region }}, Indonesia
+            </h3>
           </div>
 
           <!-- part result----------------------->
@@ -28,41 +30,30 @@
 
 
           <!-- weather result----------------------->
-          <div class="row justify-content-md-center dat-table-grip p-5">
+          <div class="row justify-content-md-center dat-table-grip p-3">
+            <h2 class="title">
+              Current Temperature:
+            </h2>
             <h1 class="title">
-              63° Celcius
+              {{ weather.current.temperature }}°Celcius
             </h1>
           </div>
         
         </div>
       </div>
-      
-      <!-- <h1 class="title">
-        Sleman,
-        Jogja, Indonesia
-      </h1>
-      <v-card class="mx-auto" min-height="300" raised>
-        <v-list-item three-line>
-          <v-list-item-content>
-            <div class="raised mb-4">° Celcius</div>
-            <v-list-item-title class="headline mb-1">Headline 5</v-list-item-title>
-            <v-list-item-subtitle>Greyhound divisely hello coldly fonwderfully</v-list-item-subtitle>
-          </v-list-item-content>
-        </v-list-item>
-      </v-card> -->
     </div>
   </div>
 </template>
 
 <script>
-// import axios from 'axios'
+import axios from 'axios'
 
-// export default {
-//   async asyncData () {
-//     const { data } = await axios.get(process.env.baseUrl +'/api/cuaca')
-//     return { weather: data }
-//   },
-// }
+export default {
+  async asyncData () {
+     const { data } = await axios.get(process.env.baseUrl +'/api/cuaca')
+     return { weather: data }
+   },
+ }
 
 </script>
 
@@ -98,6 +89,15 @@
   font-weight: 300;
   font-size: 80px;
   letter-spacing: 1px;
+}
+.title-down {
+  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  display: block;
+  font-weight: 300;
+  font-size: 80px;
+  letter-spacing: 1px;
+  padding-top: 150px;
 }
 
 .subtitle {
