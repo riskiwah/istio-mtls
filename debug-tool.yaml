@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ssl-debug
+spec:
+  containers:
+  - image: riskiwah/ssl-tools
+    command:
+      - /bin/sh
+      - "-c"
+      - "sleep 120m"
+    imagePullPolicy: Always
+    resources:
+      requests:
+        memory: "128Mi"
+        cpu: "64m"
+      limits:
+        memory: "256Mi"
+        cpu: "100m"
+    name: ssl-debug
+  restartPolicy: Always

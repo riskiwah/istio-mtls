@@ -1,34 +1,29 @@
-FROM node:10.16.1-alpine as dev-env
-WORKDIR /app
-COPY . /app
-RUN apk update
-RUN yarn
-EXPOSE 3000
-CMD ["yarn", "dev"]
+FROM node:12.14.1-alpine3.11
 
-# ビルド環境向け
+# create destination directory
+RUN mkdir -p /usr/src/nuxt-app
+WORKDIR /usr/src/nuxt-app
 
-# as をつけることでビルド環境に命名を追加
-FROM node:10.16.1-alpine as build-env
-WORKDIR /app
-COPY . /app
-RUN apk update
-RUN yarn
-RUN yarn add @nuxtjs/axios
-RUN yarn build
+# update and install dependency
+RUN apk update && apk upgrade
+RUN apk add git
 
-# 本番環境向け
+# copy the app, note .dockerignore
+COPY . /usr/src/nuxt-app/
+RUN npm install
+RUN npm install axios
 
-# メインのイメージは特に何もつけなくて良い
-FROM node:10.16.1-alpine
+# build necessary, even if no static files are needed,
+# since it builds the server as well
+RUN npm run build
 
-WORKDIR /app
-COPY . /app
+# expose 5000 on container
+EXPOSE 5000
 
-# 別のビルドから成果物をコピー可能
-COPY --from=build-env /app/.nuxt /app/.nuxt
+# set app serving to permissive / assigned
+ENV NUXT_HOST=0.0.0.0
+# set app port
+ENV NUXT_PORT=5000
 
-# 本番では devDeps を消してファイルサイズを削減
-RUN yarn install --production
-EXPOSE 3000
-CMD ["yarn", "start"]
+# start the app
+CMD [ "npm", "start" ]
