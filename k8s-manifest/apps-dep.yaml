@@ -27,3 +27,33 @@ spec:
         image: riskiwah/backend-forecast
         ports:
         - containerPort: 5000
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: frontend-svc
+spec:
+  selector:
+    app: frontend
+  type: ClusterIP
+  ports:
+  - name: nuxt
+    port: 3000
+    targetPort: 3000
+---
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: frontend-dep
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: frontend
+    spec:
+      containers:
+      - name: nuxt
+        image: riskiwah/frontend-forecast:k8s
+        ports:
+          - containerPort: 3000
