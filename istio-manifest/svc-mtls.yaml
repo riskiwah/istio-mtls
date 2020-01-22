@@ -1,17 +1,18 @@
 apiVersion: "authentication.istio.io/v1alpha1"
-kind: Policy
+kind: "Policy"
 metadata:
-  name: policy-backend
+  name: "policy-backend"
 spec:
   targets:
   - name: backend-svc
   peers:
-  - mtls: {}
+  - mtls: {}          # Sama saja }
+      # mode: STRICT  #           }
 ---
 apiVersion: "networking.istio.io/v1alpha3"
-kind: DestinationRule
+kind: "DestinationRule"
 metadata:
-  name: dr-backend-mtls
+  name: "dr-backend-mtls"
 spec:
   host: "backend-svc.default.svc.cluster.local"
   trafficPolicy:

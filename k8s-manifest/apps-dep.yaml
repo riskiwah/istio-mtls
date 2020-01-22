@@ -7,7 +7,7 @@ spec:
     app: backend
   type: ClusterIP
   ports:
-  - name: flask
+  - name: http-flask
     port: 5000
     targetPort: 5000
 ---
@@ -37,7 +37,7 @@ spec:
     app: frontend
   type: ClusterIP
   ports:
-  - name: nuxt
+  - name: http-nuxt
     port: 3000
     targetPort: 3000
 ---
