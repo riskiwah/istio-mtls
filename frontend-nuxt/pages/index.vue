@@ -20,8 +20,7 @@
         <div class="col-md-6 content-bar">
           <!-- location result----------------------->
           <div class="row justify-content-md-center dat-table-grip">
-            <h3 class="title-down"> {{ weather.location.name }},
-                 {{ weather.location.region }}, Indonesia
+            <h3 class="title-down"> {{ weather.name }}
             </h3>
           </div>
 
@@ -35,7 +34,7 @@
               Current Temperature:
             </h2>
             <h1 class="title">
-              {{ weather.current.temperature }}°Celcius
+              {{ weather.main.temp }}°Celcius
             </h1>
           </div>
         

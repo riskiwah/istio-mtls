@@ -1,14 +1,9 @@
-## Some to-do
-- Dockerized frontend apps [DONE]
-- Add frontend manifest k8s [DONE]
-- Testing local deployment frontend + backend top of k8s [DONE tested on KIND]
-------------------------
-- Create istio manifest [DONE]
-- test it on local again [DONE]
-------------------------
-- Deploy apps and istio on gcp [DONE]
-- Check n testing apps [DONE works!]
-- Visualize on kiali [WORK AS FCK]
+## Some to-do update 10 Feb 2020
+- Move Backend API external to owm [work]
+- Change Axios frontend api consume variable [work]
+- New tag backend and frontend image (owm, owm-k8s) [work]
+- Change k8s manifest tag image
+- Test it on KinD [DONE AND WORK SMOOTH]
 
 ## What's next?
 - More deep dive on testing mTLS (wireshark done, ssldump done)

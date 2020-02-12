@@ -7,13 +7,11 @@ CORS(app)
 
 @app.route('/api/cuaca', methods=['GET'])
 def cuaca():
-    params = {
-        'access_key': '3fa0e89892bed6f39540c3c20ba036c8',
-        'query': 'Malang'
-    }
+    API_KEY = '947eb74ab694945d3f9b228bd8250d5a'
+    CITY = 'Malang'
 
-    r = requests.get('http://api.weatherstack.com/current', params)
-    api_response = r.json()
+    r = "https://api.openweathermap.org/data/2.5/weather?q={}&appid={}&units=metric".format(CITY, API_KEY)
+    api_response = requests.get(r).json()
     
     return jsonify(api_response)
 

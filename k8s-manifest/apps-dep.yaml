@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
       - name: flask
-        image: riskiwah/backend-forecast
+        image: riskiwah/backend-forecast:owm
         ports:
         - containerPort: 5000
 ---
@@ -54,6 +54,6 @@ spec:
     spec:
       containers:
       - name: nuxt
-        image: riskiwah/frontend-forecast:k8s
+        image: riskiwah/frontend-forecast:owm-k8s
         ports:
           - containerPort: 3000
