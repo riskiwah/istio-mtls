@@ -18,13 +18,13 @@ spec:
   trafficPolicy:
     tls:
       mode: ISTIO_MUTUAL
----
-apiVersion: "networking.istio.io/v1alpha3"
-kind: "DestinationRule"
-metadata:
-  name: "dr-frontend-mtls"
-spec:
-  host: "frontend-svc.default.svc.cluster.local"
-  trafficPolicy:
-    tls:
-      mode: ISTIO_MUTUAL
+# ---
+# apiVersion: "networking.istio.io/v1alpha3"
+# kind: "DestinationRule"
+# metadata:
+#   name: "dr-frontend-mtls"
+# spec:
+#   host: "frontend-svc.default.svc.cluster.local"
+#   trafficPolicy:
+#     tls:
+#       mode: ISTIO_MUTUAL

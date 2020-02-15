@@ -5,6 +5,9 @@
 - Change k8s manifest tag image
 - Test it on KinD [DONE AND WORK SMOOTH]
 
+## Some to do on 15 feb 2020
+- move service entry to new api external (owm)
+
 ## What's next?
 - More deep dive on testing mTLS (wireshark done, ssldump done)
 - Deep dive on testssl.sh (try to find on client + server side) --> Still work on Istio-pilot as open PKI :)

@@ -35,10 +35,10 @@ spec:
 apiVersion: networking.istio.io/v1alpha3
 kind: ServiceEntry
 metadata:
-  name: se-weatherstack
+  name: se-owm
 spec:
   hosts:
-  - api.weatherstack.com
+  - api.openweathermap.org
   ports:
   - number: 80
     name: http
