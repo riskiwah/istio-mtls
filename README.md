@@ -13,11 +13,18 @@
 - Deep dive on testssl.sh (try to find on client + server side) --> Still work on Istio-pilot as open PKI :)
 
 
+## UPDATE 19 MARCH
+- move backend to http for ez debug :))
+- SSLDUMP WILL WORK WHEN DISABLE SERVICE ENTRY AND USED HTTP ENDPOINT FUKKKKK!! >> txtoutputnose.txt
+
 ## Some snippet debuging
 
 echo "`curl --write-out '%{time_total}' --silent --output /dev/null http://example.com`" | tee -a some.txt
 awk '{ total += $1; count++ } END { print total/count }' some.txt
 
+tshark -r progress-with-mtls2.pcapng -z "follow,tcp,ascii,10.4.1.7:44662,10.4.0.15:5000"
 
+## Document archive 
+- https://archive.istio.io/v1.4/docs/ops/deployment/requirements/
 
 

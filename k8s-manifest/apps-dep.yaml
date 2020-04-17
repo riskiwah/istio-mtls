@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
       - name: flask
-        image: riskiwah/backend-forecast:owm
+        image: riskiwah/backend-forecast:owm-http
         ports:
         - containerPort: 5000
 ---

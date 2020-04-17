@@ -10,7 +10,7 @@ def cuaca():
     API_KEY = '947eb74ab694945d3f9b228bd8250d5a'
     CITY = 'Malang'
 
-    r = "https://api.openweathermap.org/data/2.5/weather?q={}&appid={}&units=metric".format(CITY, API_KEY)
+    r = "http://api.openweathermap.org/data/2.5/weather?q={}&appid={}&units=metric".format(CITY, API_KEY)
     api_response = requests.get(r).json()
     
     return jsonify(api_response)
