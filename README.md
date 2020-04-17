@@ -17,6 +17,10 @@
 - move backend to http for ez debug :))
 - SSLDUMP WILL WORK WHEN DISABLE SERVICE ENTRY AND USED HTTP ENDPOINT FUKKKKK!! >> txtoutputnose.txt
 
+## BUMP 17-18 APRIL
+- NEW UI --> FIXING IMAGE AND LINE --> CHECK RUN AS DOCKER FIRST
+- NEED TO TRY LOCAL K8S DEV
+
 ## Some snippet debuging
 
 echo "`curl --write-out '%{time_total}' --silent --output /dev/null http://example.com`" | tee -a some.txt
