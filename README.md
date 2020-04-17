@@ -19,7 +19,7 @@
 
 ## BUMP 17-18 APRIL
 - NEW UI --> FIXING IMAGE AND LINE --> CHECK RUN AS DOCKER FIRST
-- NEED TO TRY LOCAL K8S DEV
+- NEED TO TRY LOCAL K8S DEV --> USE k3d now --> need check or move base backend to alpine or debian :))
 
 ## Some snippet debuging
 
