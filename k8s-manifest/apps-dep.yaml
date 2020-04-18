@@ -8,8 +8,8 @@ spec:
   type: ClusterIP
   ports:
   - name: http-flask
-    port: 5000
-    targetPort: 5000
+    port: 80
+    targetPort: 80
 ---
 apiVersion: extensions/v1beta1
 kind: Deployment
@@ -24,9 +24,9 @@ spec:
     spec:
       containers:
       - name: flask
-        image: riskiwah/backend-forecast:owm-http
+        image: riskiwah/backend-forecast:owm-http-tiangolo
         ports:
-        - containerPort: 5000
+        - containerPort: 80
 ---
 kind: Service
 apiVersion: v1

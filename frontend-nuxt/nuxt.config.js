@@ -25,7 +25,7 @@ export default {
     }, ]
   },
   env: {
-    baseUrl: process.env.BASE_URL || 'http://backend-svc:5000'
+    baseUrl: process.env.BASE_URL || 'http://backend-svc'
   },
   /*
    ** Customize the progress-bar color

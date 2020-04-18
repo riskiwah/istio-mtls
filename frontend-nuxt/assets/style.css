@@ -28,7 +28,7 @@ h1 {
   float: right;
   color: #666;
   font-weight: 300;
-  font-size: 100px;
+  font-size: 80px;
   line-height: .2em;
   font-family: 'Roboto', sans-serif;
 }
@@ -72,6 +72,7 @@ span span {
 img {
   float: right;
   padding-top: 250px;
+  padding-left: 1000px;
   background-repeat: no-repeat;
   background-position: right bottom;
 }

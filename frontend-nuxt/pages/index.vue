@@ -12,7 +12,7 @@
     <h1>{{ weather.main.temp }}&degC</h1>
     <div class="line1"></div>
     <div class="corner-right">
-      <img src="../assets/cloud.png" />
+      <img src="https://www.dropbox.com/s/w4eods8cj3qc2z7/cloud.png?raw=1" />
     </div>
   </div>
 </template>
