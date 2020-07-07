@@ -30,3 +30,4 @@ tshark -r progress-with-mtls2.pcapng -z "follow,tcp,ascii,10.4.1.7:44662,10.4.0.
 
 ## Document archive 
 - https://archive.istio.io/v1.4/docs/ops/deployment/requirements/
+- https://archive.istio.io/v1.4/docs/concepts/security/#pki
