@@ -1,4 +1,5 @@
-# "Implementasi mutual Transport Layer Security (mTLS) Pada Arsitektur Microservices Dengan Istio di Kubernetes"
+Implementasi mutual Transport Layer Security (mTLS) Pada Arsitektur Microservices Dengan Istio di Kubernetes
+============================================================
 
 ## Lampiran:
 1. [Services Backend](/backend-flask)
@@ -8,6 +9,13 @@
 5. [Tools](/tool)
 
 ### Some notes and progress
-[changelog&notes](./changelog-notes.md)
+- [changelog&notes](./changelog-notes.md)
+- Istio version `v1.4.9`
+
+Feel free to openn PR :))
+
+Thanks. 
+
+
 
 
