@@ -12,7 +12,7 @@ Implementasi mutual Transport Layer Security (mTLS) Pada Arsitektur Microservice
 - [changelog&notes](./changelog-notes.md)
 - Istio version `v1.4.9`
 
-Feel free to openn PR :))
+Feel free to open PR :))
 
 Thanks. 
 
