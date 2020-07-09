@@ -1,6 +1,7 @@
+import requests
+import os
 from flask import Flask, jsonify, make_response
 from flask_cors import CORS
-from config import API_KEY
 import requests
 
 app = Flask(__name__)
@@ -8,6 +9,7 @@ CORS(app)
 
 @app.route('/api/cuaca', methods=['GET'])
 def cuaca():
+    API_KEY = os.getenv('KEY')
     CITY = 'Malang'
 
     r = "http://api.openweathermap.org/data/2.5/weather?q={0}&appid={1}&units=metric".format(CITY, API_KEY)

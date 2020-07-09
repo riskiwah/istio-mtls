@@ -1,9 +1,12 @@
 ## Section k8s-manifest
 
-Just apply with: 
-
+Before apply do this:
 ```
-kubectl apply -f apps-dep.yaml
+kubectl create secret generic owm-key --from-literal=key=<your-api-key>
+``` 
+Then :
+```
+kubectl apply -f k8s-manifest/apps-dep.yaml
 ```
 
 Ps:
