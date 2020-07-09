@@ -22,3 +22,7 @@ htmlcov/
 .coverage
 .coverage.*
 *,cover
+
+# ignore config file and cache dep
+config.py
+__pycache__
