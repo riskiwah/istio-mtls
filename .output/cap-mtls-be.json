@@ -1,0 +1,2967 @@
+[{
+  "src_ip": "10.0.3.1",
+  "dst_ip": "10.0.3.12",
+  "src_port": 48392,
+  "dst_port": 15020,
+  "protocol": 6,
+  "event_start": 1592677328.124935,
+  "fingerprints": {
+    "tcp": "(a668)(0204058c)(04)(08)(01)(030307)"
+  }
+}, {
+  "src_ip": "10.0.3.1",
+  "dst_ip": "10.0.3.12",
+  "src_port": 48392,
+  "dst_port": 15020,
+  "protocol": 6,
+  "event_start": 1592677328.125158,
+  "fingerprints": {
+    "http": "(474554)(485454502f312e31)(486f7374)(557365722d4167656e74)(4163636570742d456e636f64696e673a20677a6970)(436f6e6e656374696f6e3a20636c6f7365)"
+  },
+  "http": {
+    "uri": "/healthz/ready",
+    "host": "10.0.3.12:15020",
+    "user_agent": "kube-probe/1.16+"
+  },
+  "readable": {
+    "http": [{
+        "method": "GET"
+      },
+      {
+        "version": "HTTP/1.1"
+      },
+      {
+        "Host": ""
+      },
+      {
+        "User-Agent": ""
+      },
+      {
+        "Accept-Encoding": "gzip"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "10.0.3.1",
+  "src_port": 15020,
+  "dst_port": 48392,
+  "protocol": 6,
+  "event_start": 1592677328.126093,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323030)(4f4b)(44617465)(436f6e6e656374696f6e3a20636c6f7365)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "200"
+      },
+      {
+        "response": "OK"
+      },
+      {
+        "Date": ""
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.1",
+  "dst_ip": "10.0.3.12",
+  "src_port": 48398,
+  "dst_port": 15020,
+  "protocol": 6,
+  "event_start": 1592677330.124936,
+  "fingerprints": {
+    "tcp": "(a668)(0204058c)(04)(08)(01)(030307)"
+  }
+}, {
+  "src_ip": "10.0.3.1",
+  "dst_ip": "10.0.3.12",
+  "src_port": 48398,
+  "dst_port": 15020,
+  "protocol": 6,
+  "event_start": 1592677330.125307,
+  "fingerprints": {
+    "http": "(474554)(485454502f312e31)(486f7374)(557365722d4167656e74)(4163636570742d456e636f64696e673a20677a6970)(436f6e6e656374696f6e3a20636c6f7365)"
+  },
+  "http": {
+    "uri": "/healthz/ready",
+    "host": "10.0.3.12:15020",
+    "user_agent": "kube-probe/1.16+"
+  },
+  "readable": {
+    "http": [{
+        "method": "GET"
+      },
+      {
+        "version": "HTTP/1.1"
+      },
+      {
+        "Host": ""
+      },
+      {
+        "User-Agent": ""
+      },
+      {
+        "Accept-Encoding": "gzip"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "10.0.3.1",
+  "src_port": 15020,
+  "dst_port": 48398,
+  "protocol": 6,
+  "event_start": 1592677330.126515,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323030)(4f4b)(44617465)(436f6e6e656374696f6e3a20636c6f7365)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "200"
+      },
+      {
+        "response": "OK"
+      },
+      {
+        "Date": ""
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.1",
+  "dst_ip": "10.0.3.12",
+  "src_port": 48402,
+  "dst_port": 15020,
+  "protocol": 6,
+  "event_start": 1592677332.124958,
+  "fingerprints": {
+    "tcp": "(a668)(0204058c)(04)(08)(01)(030307)"
+  }
+}, {
+  "src_ip": "10.0.3.1",
+  "dst_ip": "10.0.3.12",
+  "src_port": 48402,
+  "dst_port": 15020,
+  "protocol": 6,
+  "event_start": 1592677332.125194,
+  "fingerprints": {
+    "http": "(474554)(485454502f312e31)(486f7374)(557365722d4167656e74)(4163636570742d456e636f64696e673a20677a6970)(436f6e6e656374696f6e3a20636c6f7365)"
+  },
+  "http": {
+    "uri": "/healthz/ready",
+    "host": "10.0.3.12:15020",
+    "user_agent": "kube-probe/1.16+"
+  },
+  "readable": {
+    "http": [{
+        "method": "GET"
+      },
+      {
+        "version": "HTTP/1.1"
+      },
+      {
+        "Host": ""
+      },
+      {
+        "User-Agent": ""
+      },
+      {
+        "Accept-Encoding": "gzip"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "10.0.3.1",
+  "src_port": 15020,
+  "dst_port": 48402,
+  "protocol": 6,
+  "event_start": 1592677332.126073,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323030)(4f4b)(44617465)(436f6e6e656374696f6e3a20636c6f7365)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "200"
+      },
+      {
+        "response": "OK"
+      },
+      {
+        "Date": ""
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.0.14",
+  "dst_ip": "10.0.3.12",
+  "src_port": 42606,
+  "dst_port": 80,
+  "protocol": 6,
+  "event_start": 1592677332.169651,
+  "fingerprints": {
+    "tcp": "(a668)(0204058c)(04)(08)(01)(030307)"
+  }
+}, {
+  "src_ip": "10.0.0.14",
+  "dst_ip": "10.0.3.12",
+  "src_port": 42606,
+  "dst_port": 80,
+  "protocol": 6,
+  "event_start": 1592677332.170309,
+  "fingerprints": {
+    "tls": "(0303)(c02bcca9c02fcca8c009c013009c002fc02cc030c00ac014009d0035)((0000)(0017)(ff01)(000a00060004001d0017)(000b00020100)(0023)(00100008000605697374696f)(000d00140012040308040401050308050501080606010201))"
+  },
+  "tls": {
+    "server_name": "outbound_.80_._.backend-svc.default.svc.cluster.local"
+  },
+  "readable": {
+    "tls": {
+      "version": "TLS 1.2",
+      "cipher_suites": [
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "extensions": [{
+          "server_name": ""
+        },
+        {
+          "extended_master_secret": ""
+        },
+        {
+          "renegotiation_info": ""
+        },
+        {
+          "supported_groups": {
+            "supported_groups_list_length": 4,
+            "supported_groups": [
+              "x25519",
+              "secp256r1"
+            ]
+          }
+        },
+        {
+          "ec_point_formats": {
+            "ec_point_formats_length": 1,
+            "ec_point_formats": [
+              "uncompressed"
+            ]
+          }
+        },
+        {
+          "session_ticket": ""
+        },
+        {
+          "application_layer_protocol_negotiation": [
+            "istio"
+          ]
+        },
+        {
+          "signature_algorithms": {
+            "signature_hash_algorithms_length": 18,
+            "algorithms": [
+              "ecdsa_sha256",
+              "rsa_pss_sha256",
+              "rsa_sha256",
+              "ecdsa_sha384",
+              "rsa_pss_sha384",
+              "rsa_sha384",
+              "rsa_pss_sha512",
+              "rsa_sha512",
+              "rsa_sha1"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "analysis": {
+    "process": "Firefox",
+    "score": 1,
+    "category": "browser"
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "10.0.0.14",
+  "src_port": 80,
+  "dst_port": 42606,
+  "protocol": 6,
+  "event_start": 1592677332.172309,
+  "fingerprints": {
+    "tls_server": "(0303)(c02f)((0017)(ff01)(000b00020100)(0023))"
+  },
+  "tls": {
+    "server_certs": [
+      "MIIDHTCCAgWgAwIBAgIQTvSwKL4csO7Jty6EHLo67DANBgkqhkiG9w0BAQsFADAYMRYwFAYDVQQKEw1jbHVzdGVyLmxvY2FsMB4XDTIwMDYyMDEwMjkzM1oXDTIwMDkxODEwMjkzM1owADCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL0nedGs+Tp8W6kXYrUjJCI4FPfhTH6tdpsGHKAA9GerM35GzbQVuPVmtdWPF/EIC4nJXQn77wrCogjjjLFe4FfivwLyo6qYusHiRVJ4kB1F8DK3KUIoY1DRO6I72OqrtRtpn0CxUySWsZ/Xd/omOE3qRH1Lt+ePf7XtBj/mxZvhDEtN6xjdxSowd29NWnqMpPT1dX5DnIKBQPTAii1KW6GxzNBap0lo/oaE415DIH235868Xh79szC03Rizitck8VJFkLqY36uqxhOdfAR7otegYr3ft2f7PQwm2uvwOeaRBQ+yu1MMtVYnuu79CGUNCRNiNwuF1D1fZ4arvjoW1GUCAwEAAaN7MHkwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAAMDoGA1UdEQEB/wQwMC6GLHNwaWZmZTovL2NsdXN0ZXIubG9jYWwvbnMvZGVmYXVsdC9zYS9kZWZhdWx0MA0GCSqGSIb3DQEBCwUAA4IBAQBMQGnB2KKOuFn2oBboEKMGLk3/H5ogpExNqzNafajUZy1E5+JxTcbl/4XosISo1sHMTEy+Bo0vYDtPLRZpuc6xKb6j9oKFI5BWQLSAZLv6iR5GDqqRYZTq/iL9Hyi3FGqtMdCXDlg059lTImRrgkDa6D9SAvyPw8IhetNAyL7nshcu0nPPMv2zoa2Q/Nrvo3RqEkYh/MQuAFHjTBRKNGkFoHUIbjR6aj34VTJU6XGM5Exp/fvToq3YHXTkP6W9f0aUfX9Qd9ucvzNqEafscLRfic77I+x9CGqExKKMbj+2zofZ63CF3kTEvJQn7RYqxpDUH/CLG8quoszhob3ldXxm"
+    ]
+  },
+  "readable": {
+    "tls_server": {
+      "version": "TLS 1.2",
+      "selected_cipher_suite": [
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+      ],
+      "extensions": [{
+          "extended_master_secret": ""
+        },
+        {
+          "renegotiation_info": ""
+        },
+        {
+          "ec_point_formats": {
+            "ec_point_formats_length": 1,
+            "ec_point_formats": [
+              "uncompressed"
+            ]
+          }
+        },
+        {
+          "session_ticket": ""
+        }
+      ]
+    },
+    "server_certs": [{
+      "version": "v3",
+      "serial_number": "4ef4b028be1cb0eec9b72e841cba3aec",
+      "issuer": [{
+        "id-at-organizationName": "cluster.local"
+      }],
+      "validity": {
+        "not_before": "200620102933Z",
+        "not_after": "200918102933Z"
+      },
+      "subject": [],
+      "extensions": [{
+          "id-ce-keyUsage": "ff"
+        },
+        {
+          "id-ce-extKeyUsage": "301406082b0601050507030106082b06010505070302"
+        },
+        {
+          "id-ce-basicConstraints": "ff"
+        },
+        {
+          "id-ce-subjectAltName": "ff"
+        }
+      ]
+    }]
+  }
+}, {
+  "src_ip": "10.0.0.14",
+  "dst_ip": "10.0.3.12",
+  "src_port": 42606,
+  "dst_port": 80,
+  "protocol": 6,
+  "event_start": 1592677332.174389,
+  "tls": {
+    "server_certs": [
+      "MIIDHTCCAgWgAwIBAgIQTvSwKL4csO7Jty6EHLo67DANBgkqhkiG9w0BAQsFADAYMRYwFAYDVQQKEw1jbHVzdGVyLmxvY2FsMB4XDTIwMDYyMDEwMjkzM1oXDTIwMDkxODEwMjkzM1owADCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL0nedGs+Tp8W6kXYrUjJCI4FPfhTH6tdpsGHKAA9GerM35GzbQVuPVmtdWPF/EIC4nJXQn77wrCogjjjLFe4FfivwLyo6qYusHiRVJ4kB1F8DK3KUIoY1DRO6I72OqrtRtpn0CxUySWsZ/Xd/omOE3qRH1Lt+ePf7XtBj/mxZvhDEtN6xjdxSowd29NWnqMpPT1dX5DnIKBQPTAii1KW6GxzNBap0lo/oaE415DIH235868Xh79szC03Rizitck8VJFkLqY36uqxhOdfAR7otegYr3ft2f7PQwm2uvwOeaRBQ+yu1MMtVYnuu79CGUNCRNiNwuF1D1fZ4arvjoW1GUCAwEAAaN7MHkwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAAMDoGA1UdEQEB/wQwMC6GLHNwaWZmZTovL2NsdXN0ZXIubG9jYWwvbnMvZGVmYXVsdC9zYS9kZWZhdWx0MA0GCSqGSIb3DQEBCwUAA4IBAQBMQGnB2KKOuFn2oBboEKMGLk3/H5ogpExNqzNafajUZy1E5+JxTcbl/4XosISo1sHMTEy+Bo0vYDtPLRZpuc6xKb6j9oKFI5BWQLSAZLv6iR5GDqqRYZTq/iL9Hyi3FGqtMdCXDlg059lTImRrgkDa6D9SAvyPw8IhetNAyL7nshcu0nPPMv2zoa2Q/Nrvo3RqEkYh/MQuAFHjTBRKNGkFoHUIbjR6aj34VTJU6XGM5Exp/fvToq3YHXTkP6W9f0aUfX9Qd9ucvzNqEafscLRfic77I+x9CGqExKKMbj+2zofZ63CF3kTEvJQn7RYqxpDUH/CLG8quoszhob3ldXxm"
+    ]
+  },
+  "readable": {
+    "server_certs": [{
+      "version": "v3",
+      "serial_number": "4ef4b028be1cb0eec9b72e841cba3aec",
+      "issuer": [{
+        "id-at-organizationName": "cluster.local"
+      }],
+      "validity": {
+        "not_before": "200620102933Z",
+        "not_after": "200918102933Z"
+      },
+      "subject": [],
+      "extensions": [{
+          "id-ce-keyUsage": "ff"
+        },
+        {
+          "id-ce-extKeyUsage": "301406082b0601050507030106082b06010505070302"
+        },
+        {
+          "id-ce-basicConstraints": "ff"
+        },
+        {
+          "id-ce-subjectAltName": "ff"
+        }
+      ]
+    }]
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "37.139.1.159",
+  "src_port": 50272,
+  "dst_port": 80,
+  "protocol": 6,
+  "event_start": 1592677332.192365,
+  "fingerprints": {
+    "tcp": "(a668)(0204058c)(04)(08)(01)(030307)"
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "37.139.1.159",
+  "src_port": 50272,
+  "dst_port": 80,
+  "protocol": 6,
+  "event_start": 1592677332.48987,
+  "fingerprints": {
+    "http": "(474554)(485454502f312e31)(686f7374)(757365722d6167656e74)(6163636570742d656e636f64696e673a20677a69702c206465666c617465)(6163636570743a202a2f2a)"
+  },
+  "http": {
+    "uri": "/data/2.5/weather?q=Malang&appid=947eb74ab694945d3f9b228bd8250d5a&units=metric",
+    "host": "api.openweathermap.org",
+    "user_agent": "python-requests/2.22.0"
+  },
+  "readable": {
+    "http": [{
+        "method": "GET"
+      },
+      {
+        "version": "HTTP/1.1"
+      },
+      {
+        "host": ""
+      },
+      {
+        "user-agent": ""
+      },
+      {
+        "accept-encoding": "gzip, deflate"
+      }
+    ]
+  }
+}, {
+  "src_ip": "37.139.1.159",
+  "dst_ip": "10.0.3.12",
+  "src_port": 80,
+  "dst_port": 50272,
+  "protocol": 6,
+  "event_start": 1592677332.789941,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323030)(4f4b)(5365727665723a206f70656e7265737479)(44617465)(436f6e74656e742d54797065)(436f6e6e656374696f6e3a206b6565702d616c697665)(4163636573732d436f6e74726f6c2d416c6c6f772d43726564656e7469616c733a2074727565)(4163636573732d436f6e74726f6c2d416c6c6f772d4d6574686f64733a204745542c20504f5354)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "200"
+      },
+      {
+        "response": "OK"
+      },
+      {
+        "Server": "openresty"
+      },
+      {
+        "Date": ""
+      },
+      {
+        "Content-Type": ""
+      },
+      {
+        "Connection": "keep-alive"
+      },
+      {
+        "Access-Control-Allow-Credentials": "true"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.4.0.18",
+  "dst_ip": "10.0.3.12",
+  "src_port": 9411,
+  "dst_port": 57022,
+  "protocol": 6,
+  "event_start": 1592677333.086864,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323032)(4163636570746564)(44617465)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "202"
+      },
+      {
+        "response": "Accepted"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.4.0.18",
+  "dst_ip": "10.0.3.12",
+  "src_port": 9411,
+  "dst_port": 57024,
+  "protocol": 6,
+  "event_start": 1592677333.138678,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323032)(4163636570746564)(44617465)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "202"
+      },
+      {
+        "response": "Accepted"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.1",
+  "dst_ip": "10.0.3.12",
+  "src_port": 48420,
+  "dst_port": 15020,
+  "protocol": 6,
+  "event_start": 1592677334.1249,
+  "fingerprints": {
+    "tcp": "(a668)(0204058c)(04)(08)(01)(030307)"
+  }
+}, {
+  "src_ip": "10.0.3.1",
+  "dst_ip": "10.0.3.12",
+  "src_port": 48420,
+  "dst_port": 15020,
+  "protocol": 6,
+  "event_start": 1592677334.125283,
+  "fingerprints": {
+    "http": "(474554)(485454502f312e31)(486f7374)(557365722d4167656e74)(4163636570742d456e636f64696e673a20677a6970)(436f6e6e656374696f6e3a20636c6f7365)"
+  },
+  "http": {
+    "uri": "/healthz/ready",
+    "host": "10.0.3.12:15020",
+    "user_agent": "kube-probe/1.16+"
+  },
+  "readable": {
+    "http": [{
+        "method": "GET"
+      },
+      {
+        "version": "HTTP/1.1"
+      },
+      {
+        "Host": ""
+      },
+      {
+        "User-Agent": ""
+      },
+      {
+        "Accept-Encoding": "gzip"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "10.0.3.1",
+  "src_port": 15020,
+  "dst_port": 48420,
+  "protocol": 6,
+  "event_start": 1592677334.126567,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323030)(4f4b)(44617465)(436f6e6e656374696f6e3a20636c6f7365)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "200"
+      },
+      {
+        "response": "OK"
+      },
+      {
+        "Date": ""
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.10",
+  "dst_ip": "10.0.3.12",
+  "src_port": 39008,
+  "dst_port": 15090,
+  "protocol": 6,
+  "event_start": 1592677335.048582,
+  "fingerprints": {
+    "http": "(474554)(485454502f312e31)(486f7374)(557365722d4167656e74)(4163636570743a206170706c69636174696f6e2f6f70656e6d6574726963732d746578743b2076657273696f6e3d302e302e312c746578742f706c61696e3b76657273696f6e3d302e302e343b713d302e352c2a2f2a3b713d302e31)(4163636570742d456e636f64696e673a20677a6970)"
+  },
+  "http": {
+    "uri": "/stats/prometheus",
+    "host": "10.0.3.12:15090",
+    "user_agent": "Prometheus/2.12.0"
+  },
+  "readable": {
+    "http": [{
+        "method": "GET"
+      },
+      {
+        "version": "HTTP/1.1"
+      },
+      {
+        "Host": ""
+      },
+      {
+        "User-Agent": ""
+      },
+      {
+        "Accept": "application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "10.0.3.10",
+  "src_port": 15090,
+  "dst_port": 39008,
+  "protocol": 6,
+  "event_start": 1592677335.050579,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323030)(4f4b)(636f6e74656e742d74797065)(63616368652d636f6e74726f6c3a206e6f2d63616368652c206d61782d6167653d30)(64617465)(7365727665723a20656e766f79)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "200"
+      },
+      {
+        "response": "OK"
+      },
+      {
+        "content-type": ""
+      },
+      {
+        "cache-control": "no-cache, max-age=0"
+      },
+      {
+        "date": ""
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "82.196.7.246",
+  "src_port": 35502,
+  "dst_port": 80,
+  "protocol": 6,
+  "event_start": 1592677335.293536,
+  "fingerprints": {
+    "tcp": "(a668)(0204058c)(04)(08)(01)(030307)"
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "82.196.7.246",
+  "src_port": 35502,
+  "dst_port": 80,
+  "protocol": 6,
+  "event_start": 1592677335.588793,
+  "fingerprints": {
+    "http": "(474554)(485454502f312e31)(686f7374)(757365722d6167656e74)(6163636570742d656e636f64696e673a20677a69702c206465666c617465)(6163636570743a202a2f2a)"
+  },
+  "http": {
+    "uri": "/data/2.5/weather?q=Malang&appid=947eb74ab694945d3f9b228bd8250d5a&units=metric",
+    "host": "api.openweathermap.org",
+    "user_agent": "python-requests/2.22.0"
+  },
+  "readable": {
+    "http": [{
+        "method": "GET"
+      },
+      {
+        "version": "HTTP/1.1"
+      },
+      {
+        "host": ""
+      },
+      {
+        "user-agent": ""
+      },
+      {
+        "accept-encoding": "gzip, deflate"
+      }
+    ]
+  }
+}, {
+  "src_ip": "82.196.7.246",
+  "dst_ip": "10.0.3.12",
+  "src_port": 80,
+  "dst_port": 35502,
+  "protocol": 6,
+  "event_start": 1592677335.883892,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323030)(4f4b)(5365727665723a206f70656e7265737479)(44617465)(436f6e74656e742d54797065)(436f6e6e656374696f6e3a206b6565702d616c697665)(4163636573732d436f6e74726f6c2d416c6c6f772d43726564656e7469616c733a2074727565)(4163636573732d436f6e74726f6c2d416c6c6f772d4d6574686f64733a204745542c20504f5354)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "200"
+      },
+      {
+        "response": "OK"
+      },
+      {
+        "Server": "openresty"
+      },
+      {
+        "Date": ""
+      },
+      {
+        "Content-Type": ""
+      },
+      {
+        "Connection": "keep-alive"
+      },
+      {
+        "Access-Control-Allow-Credentials": "true"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.1",
+  "dst_ip": "10.0.3.12",
+  "src_port": 48432,
+  "dst_port": 15020,
+  "protocol": 6,
+  "event_start": 1592677336.124937,
+  "fingerprints": {
+    "tcp": "(a668)(0204058c)(04)(08)(01)(030307)"
+  }
+}, {
+  "src_ip": "10.0.3.1",
+  "dst_ip": "10.0.3.12",
+  "src_port": 48432,
+  "dst_port": 15020,
+  "protocol": 6,
+  "event_start": 1592677336.1252,
+  "fingerprints": {
+    "http": "(474554)(485454502f312e31)(486f7374)(557365722d4167656e74)(4163636570742d456e636f64696e673a20677a6970)(436f6e6e656374696f6e3a20636c6f7365)"
+  },
+  "http": {
+    "uri": "/healthz/ready",
+    "host": "10.0.3.12:15020",
+    "user_agent": "kube-probe/1.16+"
+  },
+  "readable": {
+    "http": [{
+        "method": "GET"
+      },
+      {
+        "version": "HTTP/1.1"
+      },
+      {
+        "Host": ""
+      },
+      {
+        "User-Agent": ""
+      },
+      {
+        "Accept-Encoding": "gzip"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "10.0.3.1",
+  "src_port": 15020,
+  "dst_port": 48432,
+  "protocol": 6,
+  "event_start": 1592677336.12616,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323030)(4f4b)(44617465)(436f6e6e656374696f6e3a20636c6f7365)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "200"
+      },
+      {
+        "response": "OK"
+      },
+      {
+        "Date": ""
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.4.0.18",
+  "dst_ip": "10.0.3.12",
+  "src_port": 9411,
+  "dst_port": 57022,
+  "protocol": 6,
+  "event_start": 1592677338.090851,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323032)(4163636570746564)(44617465)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "202"
+      },
+      {
+        "response": "Accepted"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.1",
+  "dst_ip": "10.0.3.12",
+  "src_port": 48440,
+  "dst_port": 15020,
+  "protocol": 6,
+  "event_start": 1592677338.124961,
+  "fingerprints": {
+    "tcp": "(a668)(0204058c)(04)(08)(01)(030307)"
+  }
+}, {
+  "src_ip": "10.0.3.1",
+  "dst_ip": "10.0.3.12",
+  "src_port": 48440,
+  "dst_port": 15020,
+  "protocol": 6,
+  "event_start": 1592677338.125213,
+  "fingerprints": {
+    "http": "(474554)(485454502f312e31)(486f7374)(557365722d4167656e74)(4163636570742d456e636f64696e673a20677a6970)(436f6e6e656374696f6e3a20636c6f7365)"
+  },
+  "http": {
+    "uri": "/healthz/ready",
+    "host": "10.0.3.12:15020",
+    "user_agent": "kube-probe/1.16+"
+  },
+  "readable": {
+    "http": [{
+        "method": "GET"
+      },
+      {
+        "version": "HTTP/1.1"
+      },
+      {
+        "Host": ""
+      },
+      {
+        "User-Agent": ""
+      },
+      {
+        "Accept-Encoding": "gzip"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "10.0.3.1",
+  "src_port": 15020,
+  "dst_port": 48440,
+  "protocol": 6,
+  "event_start": 1592677338.127302,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323030)(4f4b)(44617465)(436f6e6e656374696f6e3a20636c6f7365)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "200"
+      },
+      {
+        "response": "OK"
+      },
+      {
+        "Date": ""
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.4.0.18",
+  "dst_ip": "10.0.3.12",
+  "src_port": 9411,
+  "dst_port": 57024,
+  "protocol": 6,
+  "event_start": 1592677338.139108,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323032)(4163636570746564)(44617465)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "202"
+      },
+      {
+        "response": "Accepted"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "82.196.7.246",
+  "src_port": 35502,
+  "dst_port": 80,
+  "protocol": 6,
+  "event_start": 1592677338.350734,
+  "fingerprints": {
+    "http": "(474554)(485454502f312e31)(686f7374)(757365722d6167656e74)(6163636570742d656e636f64696e673a20677a69702c206465666c617465)(6163636570743a202a2f2a)"
+  },
+  "http": {
+    "uri": "/data/2.5/weather?q=Malang&appid=947eb74ab694945d3f9b228bd8250d5a&units=metric",
+    "host": "api.openweathermap.org",
+    "user_agent": "python-requests/2.22.0"
+  },
+  "readable": {
+    "http": [{
+        "method": "GET"
+      },
+      {
+        "version": "HTTP/1.1"
+      },
+      {
+        "host": ""
+      },
+      {
+        "user-agent": ""
+      },
+      {
+        "accept-encoding": "gzip, deflate"
+      }
+    ]
+  }
+}, {
+  "src_ip": "82.196.7.246",
+  "dst_ip": "10.0.3.12",
+  "src_port": 80,
+  "dst_port": 35502,
+  "protocol": 6,
+  "event_start": 1592677338.645765,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323030)(4f4b)(5365727665723a206f70656e7265737479)(44617465)(436f6e74656e742d54797065)(436f6e6e656374696f6e3a206b6565702d616c697665)(4163636573732d436f6e74726f6c2d416c6c6f772d43726564656e7469616c733a2074727565)(4163636573732d436f6e74726f6c2d416c6c6f772d4d6574686f64733a204745542c20504f5354)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "200"
+      },
+      {
+        "response": "OK"
+      },
+      {
+        "Server": "openresty"
+      },
+      {
+        "Date": ""
+      },
+      {
+        "Content-Type": ""
+      },
+      {
+        "Connection": "keep-alive"
+      },
+      {
+        "Access-Control-Allow-Credentials": "true"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.1",
+  "dst_ip": "10.0.3.12",
+  "src_port": 48446,
+  "dst_port": 15020,
+  "protocol": 6,
+  "event_start": 1592677340.12491,
+  "fingerprints": {
+    "tcp": "(a668)(0204058c)(04)(08)(01)(030307)"
+  }
+}, {
+  "src_ip": "10.0.3.1",
+  "dst_ip": "10.0.3.12",
+  "src_port": 48446,
+  "dst_port": 15020,
+  "protocol": 6,
+  "event_start": 1592677340.12518,
+  "fingerprints": {
+    "http": "(474554)(485454502f312e31)(486f7374)(557365722d4167656e74)(4163636570742d456e636f64696e673a20677a6970)(436f6e6e656374696f6e3a20636c6f7365)"
+  },
+  "http": {
+    "uri": "/healthz/ready",
+    "host": "10.0.3.12:15020",
+    "user_agent": "kube-probe/1.16+"
+  },
+  "readable": {
+    "http": [{
+        "method": "GET"
+      },
+      {
+        "version": "HTTP/1.1"
+      },
+      {
+        "Host": ""
+      },
+      {
+        "User-Agent": ""
+      },
+      {
+        "Accept-Encoding": "gzip"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "10.0.3.1",
+  "src_port": 15020,
+  "dst_port": 48446,
+  "protocol": 6,
+  "event_start": 1592677340.126184,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323030)(4f4b)(44617465)(436f6e6e656374696f6e3a20636c6f7365)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "200"
+      },
+      {
+        "response": "OK"
+      },
+      {
+        "Date": ""
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "37.139.1.159",
+  "src_port": 50318,
+  "dst_port": 80,
+  "protocol": 6,
+  "event_start": 1592677341.182189,
+  "fingerprints": {
+    "tcp": "(a668)(0204058c)(04)(08)(01)(030307)"
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "37.139.1.159",
+  "src_port": 50318,
+  "dst_port": 80,
+  "protocol": 6,
+  "event_start": 1592677341.484697,
+  "fingerprints": {
+    "http": "(474554)(485454502f312e31)(686f7374)(757365722d6167656e74)(6163636570742d656e636f64696e673a20677a69702c206465666c617465)(6163636570743a202a2f2a)"
+  },
+  "http": {
+    "uri": "/data/2.5/weather?q=Malang&appid=947eb74ab694945d3f9b228bd8250d5a&units=metric",
+    "host": "api.openweathermap.org",
+    "user_agent": "python-requests/2.22.0"
+  },
+  "readable": {
+    "http": [{
+        "method": "GET"
+      },
+      {
+        "version": "HTTP/1.1"
+      },
+      {
+        "host": ""
+      },
+      {
+        "user-agent": ""
+      },
+      {
+        "accept-encoding": "gzip, deflate"
+      }
+    ]
+  }
+}, {
+  "src_ip": "37.139.1.159",
+  "dst_ip": "10.0.3.12",
+  "src_port": 80,
+  "dst_port": 50318,
+  "protocol": 6,
+  "event_start": 1592677341.78717,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323030)(4f4b)(5365727665723a206f70656e7265737479)(44617465)(436f6e74656e742d54797065)(436f6e6e656374696f6e3a206b6565702d616c697665)(4163636573732d436f6e74726f6c2d416c6c6f772d43726564656e7469616c733a2074727565)(4163636573732d436f6e74726f6c2d416c6c6f772d4d6574686f64733a204745542c20504f5354)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "200"
+      },
+      {
+        "response": "OK"
+      },
+      {
+        "Server": "openresty"
+      },
+      {
+        "Date": ""
+      },
+      {
+        "Content-Type": ""
+      },
+      {
+        "Connection": "keep-alive"
+      },
+      {
+        "Access-Control-Allow-Credentials": "true"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.1",
+  "dst_ip": "10.0.3.12",
+  "src_port": 48458,
+  "dst_port": 15020,
+  "protocol": 6,
+  "event_start": 1592677342.124971,
+  "fingerprints": {
+    "tcp": "(a668)(0204058c)(04)(08)(01)(030307)"
+  }
+}, {
+  "src_ip": "10.0.3.1",
+  "dst_ip": "10.0.3.12",
+  "src_port": 48458,
+  "dst_port": 15020,
+  "protocol": 6,
+  "event_start": 1592677342.125321,
+  "fingerprints": {
+    "http": "(474554)(485454502f312e31)(486f7374)(557365722d4167656e74)(4163636570742d456e636f64696e673a20677a6970)(436f6e6e656374696f6e3a20636c6f7365)"
+  },
+  "http": {
+    "uri": "/healthz/ready",
+    "host": "10.0.3.12:15020",
+    "user_agent": "kube-probe/1.16+"
+  },
+  "readable": {
+    "http": [{
+        "method": "GET"
+      },
+      {
+        "version": "HTTP/1.1"
+      },
+      {
+        "Host": ""
+      },
+      {
+        "User-Agent": ""
+      },
+      {
+        "Accept-Encoding": "gzip"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "10.0.3.1",
+  "src_port": 15020,
+  "dst_port": 48458,
+  "protocol": 6,
+  "event_start": 1592677342.126482,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323030)(4f4b)(44617465)(436f6e6e656374696f6e3a20636c6f7365)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "200"
+      },
+      {
+        "response": "OK"
+      },
+      {
+        "Date": ""
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.4.0.18",
+  "dst_ip": "10.0.3.12",
+  "src_port": 9411,
+  "dst_port": 57022,
+  "protocol": 6,
+  "event_start": 1592677343.090429,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323032)(4163636570746564)(44617465)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "202"
+      },
+      {
+        "response": "Accepted"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.4.0.18",
+  "dst_ip": "10.0.3.12",
+  "src_port": 9411,
+  "dst_port": 57024,
+  "protocol": 6,
+  "event_start": 1592677343.138526,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323032)(4163636570746564)(44617465)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "202"
+      },
+      {
+        "response": "Accepted"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.1",
+  "dst_ip": "10.0.3.12",
+  "src_port": 48468,
+  "dst_port": 15020,
+  "protocol": 6,
+  "event_start": 1592677344.124886,
+  "fingerprints": {
+    "tcp": "(a668)(0204058c)(04)(08)(01)(030307)"
+  }
+}, {
+  "src_ip": "10.0.3.1",
+  "dst_ip": "10.0.3.12",
+  "src_port": 48468,
+  "dst_port": 15020,
+  "protocol": 6,
+  "event_start": 1592677344.125156,
+  "fingerprints": {
+    "http": "(474554)(485454502f312e31)(486f7374)(557365722d4167656e74)(4163636570742d456e636f64696e673a20677a6970)(436f6e6e656374696f6e3a20636c6f7365)"
+  },
+  "http": {
+    "uri": "/healthz/ready",
+    "host": "10.0.3.12:15020",
+    "user_agent": "kube-probe/1.16+"
+  },
+  "readable": {
+    "http": [{
+        "method": "GET"
+      },
+      {
+        "version": "HTTP/1.1"
+      },
+      {
+        "Host": ""
+      },
+      {
+        "User-Agent": ""
+      },
+      {
+        "Accept-Encoding": "gzip"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "10.0.3.1",
+  "src_port": 15020,
+  "dst_port": 48468,
+  "protocol": 6,
+  "event_start": 1592677344.126076,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323030)(4f4b)(44617465)(436f6e6e656374696f6e3a20636c6f7365)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "200"
+      },
+      {
+        "response": "OK"
+      },
+      {
+        "Date": ""
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "188.166.16.132",
+  "src_port": 39134,
+  "dst_port": 80,
+  "protocol": 6,
+  "event_start": 1592677344.307248,
+  "fingerprints": {
+    "tcp": "(a668)(0204058c)(04)(08)(01)(030307)"
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "188.166.16.132",
+  "src_port": 39134,
+  "dst_port": 80,
+  "protocol": 6,
+  "event_start": 1592677344.606677,
+  "fingerprints": {
+    "http": "(474554)(485454502f312e31)(686f7374)(757365722d6167656e74)(6163636570742d656e636f64696e673a20677a69702c206465666c617465)(6163636570743a202a2f2a)"
+  },
+  "http": {
+    "uri": "/data/2.5/weather?q=Malang&appid=947eb74ab694945d3f9b228bd8250d5a&units=metric",
+    "host": "api.openweathermap.org",
+    "user_agent": "python-requests/2.22.0"
+  },
+  "readable": {
+    "http": [{
+        "method": "GET"
+      },
+      {
+        "version": "HTTP/1.1"
+      },
+      {
+        "host": ""
+      },
+      {
+        "user-agent": ""
+      },
+      {
+        "accept-encoding": "gzip, deflate"
+      }
+    ]
+  }
+}, {
+  "src_ip": "188.166.16.132",
+  "dst_ip": "10.0.3.12",
+  "src_port": 80,
+  "dst_port": 39134,
+  "protocol": 6,
+  "event_start": 1592677344.905925,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323030)(4f4b)(5365727665723a206f70656e7265737479)(44617465)(436f6e74656e742d54797065)(436f6e6e656374696f6e3a206b6565702d616c697665)(4163636573732d436f6e74726f6c2d416c6c6f772d43726564656e7469616c733a2074727565)(4163636573732d436f6e74726f6c2d416c6c6f772d4d6574686f64733a204745542c20504f5354)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "200"
+      },
+      {
+        "response": "OK"
+      },
+      {
+        "Server": "openresty"
+      },
+      {
+        "Date": ""
+      },
+      {
+        "Content-Type": ""
+      },
+      {
+        "Connection": "keep-alive"
+      },
+      {
+        "Access-Control-Allow-Credentials": "true"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.1",
+  "dst_ip": "10.0.3.12",
+  "src_port": 48476,
+  "dst_port": 15020,
+  "protocol": 6,
+  "event_start": 1592677346.127139,
+  "fingerprints": {
+    "tcp": "(a668)(0204058c)(04)(08)(01)(030307)"
+  }
+}, {
+  "src_ip": "10.0.3.1",
+  "dst_ip": "10.0.3.12",
+  "src_port": 48476,
+  "dst_port": 15020,
+  "protocol": 6,
+  "event_start": 1592677346.127353,
+  "fingerprints": {
+    "http": "(474554)(485454502f312e31)(486f7374)(557365722d4167656e74)(4163636570742d456e636f64696e673a20677a6970)(436f6e6e656374696f6e3a20636c6f7365)"
+  },
+  "http": {
+    "uri": "/healthz/ready",
+    "host": "10.0.3.12:15020",
+    "user_agent": "kube-probe/1.16+"
+  },
+  "readable": {
+    "http": [{
+        "method": "GET"
+      },
+      {
+        "version": "HTTP/1.1"
+      },
+      {
+        "Host": ""
+      },
+      {
+        "User-Agent": ""
+      },
+      {
+        "Accept-Encoding": "gzip"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "10.0.3.1",
+  "src_port": 15020,
+  "dst_port": 48476,
+  "protocol": 6,
+  "event_start": 1592677346.130072,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323030)(4f4b)(44617465)(436f6e6e656374696f6e3a20636c6f7365)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "200"
+      },
+      {
+        "response": "OK"
+      },
+      {
+        "Date": ""
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "37.139.20.5",
+  "src_port": 46818,
+  "dst_port": 80,
+  "protocol": 6,
+  "event_start": 1592677347.383015,
+  "fingerprints": {
+    "tcp": "(a668)(0204058c)(04)(08)(01)(030307)"
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "37.139.20.5",
+  "src_port": 46818,
+  "dst_port": 80,
+  "protocol": 6,
+  "event_start": 1592677347.680818,
+  "fingerprints": {
+    "http": "(474554)(485454502f312e31)(686f7374)(757365722d6167656e74)(6163636570742d656e636f64696e673a20677a69702c206465666c617465)(6163636570743a202a2f2a)"
+  },
+  "http": {
+    "uri": "/data/2.5/weather?q=Malang&appid=947eb74ab694945d3f9b228bd8250d5a&units=metric",
+    "host": "api.openweathermap.org",
+    "user_agent": "python-requests/2.22.0"
+  },
+  "readable": {
+    "http": [{
+        "method": "GET"
+      },
+      {
+        "version": "HTTP/1.1"
+      },
+      {
+        "host": ""
+      },
+      {
+        "user-agent": ""
+      },
+      {
+        "accept-encoding": "gzip, deflate"
+      }
+    ]
+  }
+}, {
+  "src_ip": "37.139.20.5",
+  "dst_ip": "10.0.3.12",
+  "src_port": 80,
+  "dst_port": 46818,
+  "protocol": 6,
+  "event_start": 1592677347.97843,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323030)(4f4b)(5365727665723a206f70656e7265737479)(44617465)(436f6e74656e742d54797065)(436f6e6e656374696f6e3a206b6565702d616c697665)(4163636573732d436f6e74726f6c2d416c6c6f772d43726564656e7469616c733a2074727565)(4163636573732d436f6e74726f6c2d416c6c6f772d4d6574686f64733a204745542c20504f5354)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "200"
+      },
+      {
+        "response": "OK"
+      },
+      {
+        "Server": "openresty"
+      },
+      {
+        "Date": ""
+      },
+      {
+        "Content-Type": ""
+      },
+      {
+        "Connection": "keep-alive"
+      },
+      {
+        "Access-Control-Allow-Credentials": "true"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.4.0.18",
+  "dst_ip": "10.0.3.12",
+  "src_port": 9411,
+  "dst_port": 57022,
+  "protocol": 6,
+  "event_start": 1592677348.089272,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323032)(4163636570746564)(44617465)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "202"
+      },
+      {
+        "response": "Accepted"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.1",
+  "dst_ip": "10.0.3.12",
+  "src_port": 48488,
+  "dst_port": 15020,
+  "protocol": 6,
+  "event_start": 1592677348.124892,
+  "fingerprints": {
+    "tcp": "(a668)(0204058c)(04)(08)(01)(030307)"
+  }
+}, {
+  "src_ip": "10.0.3.1",
+  "dst_ip": "10.0.3.12",
+  "src_port": 48488,
+  "dst_port": 15020,
+  "protocol": 6,
+  "event_start": 1592677348.125152,
+  "fingerprints": {
+    "http": "(474554)(485454502f312e31)(486f7374)(557365722d4167656e74)(4163636570742d456e636f64696e673a20677a6970)(436f6e6e656374696f6e3a20636c6f7365)"
+  },
+  "http": {
+    "uri": "/healthz/ready",
+    "host": "10.0.3.12:15020",
+    "user_agent": "kube-probe/1.16+"
+  },
+  "readable": {
+    "http": [{
+        "method": "GET"
+      },
+      {
+        "version": "HTTP/1.1"
+      },
+      {
+        "Host": ""
+      },
+      {
+        "User-Agent": ""
+      },
+      {
+        "Accept-Encoding": "gzip"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "10.0.3.1",
+  "src_port": 15020,
+  "dst_port": 48488,
+  "protocol": 6,
+  "event_start": 1592677348.126222,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323030)(4f4b)(44617465)(436f6e6e656374696f6e3a20636c6f7365)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "200"
+      },
+      {
+        "response": "OK"
+      },
+      {
+        "Date": ""
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.4.0.18",
+  "dst_ip": "10.0.3.12",
+  "src_port": 9411,
+  "dst_port": 57024,
+  "protocol": 6,
+  "event_start": 1592677348.14009,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323032)(4163636570746564)(44617465)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "202"
+      },
+      {
+        "response": "Accepted"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.10",
+  "dst_ip": "10.0.3.12",
+  "src_port": 39382,
+  "dst_port": 15090,
+  "protocol": 6,
+  "event_start": 1592677350.048783,
+  "fingerprints": {
+    "tcp": "(a668)(0204058c)(04)(08)(01)(030307)"
+  }
+}, {
+  "src_ip": "10.0.3.10",
+  "dst_ip": "10.0.3.12",
+  "src_port": 39382,
+  "dst_port": 15090,
+  "protocol": 6,
+  "event_start": 1592677350.051177,
+  "fingerprints": {
+    "http": "(474554)(485454502f312e31)(486f7374)(557365722d4167656e74)(4163636570743a206170706c69636174696f6e2f6f70656e6d6574726963732d746578743b2076657273696f6e3d302e302e312c746578742f706c61696e3b76657273696f6e3d302e302e343b713d302e352c2a2f2a3b713d302e31)(4163636570742d456e636f64696e673a20677a6970)"
+  },
+  "http": {
+    "uri": "/stats/prometheus",
+    "host": "10.0.3.12:15090",
+    "user_agent": "Prometheus/2.12.0"
+  },
+  "readable": {
+    "http": [{
+        "method": "GET"
+      },
+      {
+        "version": "HTTP/1.1"
+      },
+      {
+        "Host": ""
+      },
+      {
+        "User-Agent": ""
+      },
+      {
+        "Accept": "application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "10.0.3.10",
+  "src_port": 15090,
+  "dst_port": 39382,
+  "protocol": 6,
+  "event_start": 1592677350.058261,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323030)(4f4b)(636f6e74656e742d74797065)(63616368652d636f6e74726f6c3a206e6f2d63616368652c206d61782d6167653d30)(64617465)(7365727665723a20656e766f79)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "200"
+      },
+      {
+        "response": "OK"
+      },
+      {
+        "content-type": ""
+      },
+      {
+        "cache-control": "no-cache, max-age=0"
+      },
+      {
+        "date": ""
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.1",
+  "dst_ip": "10.0.3.12",
+  "src_port": 48494,
+  "dst_port": 15020,
+  "protocol": 6,
+  "event_start": 1592677350.125375,
+  "fingerprints": {
+    "tcp": "(a668)(0204058c)(04)(08)(01)(030307)"
+  }
+}, {
+  "src_ip": "10.0.3.1",
+  "dst_ip": "10.0.3.12",
+  "src_port": 48494,
+  "dst_port": 15020,
+  "protocol": 6,
+  "event_start": 1592677350.126639,
+  "fingerprints": {
+    "http": "(474554)(485454502f312e31)(486f7374)(557365722d4167656e74)(4163636570742d456e636f64696e673a20677a6970)(436f6e6e656374696f6e3a20636c6f7365)"
+  },
+  "http": {
+    "uri": "/healthz/ready",
+    "host": "10.0.3.12:15020",
+    "user_agent": "kube-probe/1.16+"
+  },
+  "readable": {
+    "http": [{
+        "method": "GET"
+      },
+      {
+        "version": "HTTP/1.1"
+      },
+      {
+        "Host": ""
+      },
+      {
+        "User-Agent": ""
+      },
+      {
+        "Accept-Encoding": "gzip"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "10.0.3.1",
+  "src_port": 15020,
+  "dst_port": 48494,
+  "protocol": 6,
+  "event_start": 1592677350.12786,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323030)(4f4b)(44617465)(436f6e6e656374696f6e3a20636c6f7365)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "200"
+      },
+      {
+        "response": "OK"
+      },
+      {
+        "Date": ""
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.0.14",
+  "dst_ip": "10.0.3.12",
+  "src_port": 42728,
+  "dst_port": 80,
+  "protocol": 6,
+  "event_start": 1592677350.463002,
+  "fingerprints": {
+    "tcp": "(a668)(0204058c)(04)(08)(01)(030307)"
+  }
+}, {
+  "src_ip": "10.0.0.14",
+  "dst_ip": "10.0.3.12",
+  "src_port": 42728,
+  "dst_port": 80,
+  "protocol": 6,
+  "event_start": 1592677350.463189,
+  "fingerprints": {
+    "tls": "(0303)(c02bcca9c02fcca8c009c013009c002fc02cc030c00ac014009d0035)((0000)(0017)(ff01)(000a00060004001d0017)(000b00020100)(0023)(00100008000605697374696f)(000d00140012040308040401050308050501080606010201))"
+  },
+  "tls": {
+    "server_name": "outbound_.80_._.backend-svc.default.svc.cluster.local"
+  },
+  "readable": {
+    "tls": {
+      "version": "TLS 1.2",
+      "cipher_suites": [
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "extensions": [{
+          "server_name": ""
+        },
+        {
+          "extended_master_secret": ""
+        },
+        {
+          "renegotiation_info": ""
+        },
+        {
+          "supported_groups": {
+            "supported_groups_list_length": 4,
+            "supported_groups": [
+              "x25519",
+              "secp256r1"
+            ]
+          }
+        },
+        {
+          "ec_point_formats": {
+            "ec_point_formats_length": 1,
+            "ec_point_formats": [
+              "uncompressed"
+            ]
+          }
+        },
+        {
+          "session_ticket": ""
+        },
+        {
+          "application_layer_protocol_negotiation": [
+            "istio"
+          ]
+        },
+        {
+          "signature_algorithms": {
+            "signature_hash_algorithms_length": 18,
+            "algorithms": [
+              "ecdsa_sha256",
+              "rsa_pss_sha256",
+              "rsa_sha256",
+              "ecdsa_sha384",
+              "rsa_pss_sha384",
+              "rsa_sha384",
+              "rsa_pss_sha512",
+              "rsa_sha512",
+              "rsa_sha1"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "analysis": {
+    "process": "Firefox",
+    "score": 1,
+    "category": "browser"
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "10.0.0.14",
+  "src_port": 80,
+  "dst_port": 42728,
+  "protocol": 6,
+  "event_start": 1592677350.46345,
+  "fingerprints": {
+    "tls_server": "(0303)(c02f)((0017)(ff01)(000b00020100))"
+  },
+  "readable": {
+    "tls_server": {
+      "version": "TLS 1.2",
+      "selected_cipher_suite": [
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+      ],
+      "extensions": [{
+          "extended_master_secret": ""
+        },
+        {
+          "renegotiation_info": ""
+        },
+        {
+          "ec_point_formats": {
+            "ec_point_formats_length": 1,
+            "ec_point_formats": [
+              "uncompressed"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "188.166.16.132",
+  "src_port": 39162,
+  "dst_port": 80,
+  "protocol": 6,
+  "event_start": 1592677350.476238,
+  "fingerprints": {
+    "tcp": "(a668)(0204058c)(04)(08)(01)(030307)"
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "188.166.16.132",
+  "src_port": 39162,
+  "dst_port": 80,
+  "protocol": 6,
+  "event_start": 1592677350.782326,
+  "fingerprints": {
+    "http": "(474554)(485454502f312e31)(686f7374)(757365722d6167656e74)(6163636570742d656e636f64696e673a20677a69702c206465666c617465)(6163636570743a202a2f2a)"
+  },
+  "http": {
+    "uri": "/data/2.5/weather?q=Malang&appid=947eb74ab694945d3f9b228bd8250d5a&units=metric",
+    "host": "api.openweathermap.org",
+    "user_agent": "python-requests/2.22.0"
+  },
+  "readable": {
+    "http": [{
+        "method": "GET"
+      },
+      {
+        "version": "HTTP/1.1"
+      },
+      {
+        "host": ""
+      },
+      {
+        "user-agent": ""
+      },
+      {
+        "accept-encoding": "gzip, deflate"
+      }
+    ]
+  }
+}, {
+  "src_ip": "188.166.16.132",
+  "dst_ip": "10.0.3.12",
+  "src_port": 80,
+  "dst_port": 39162,
+  "protocol": 6,
+  "event_start": 1592677351.088094,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323030)(4f4b)(5365727665723a206f70656e7265737479)(44617465)(436f6e74656e742d54797065)(436f6e6e656374696f6e3a206b6565702d616c697665)(4163636573732d436f6e74726f6c2d416c6c6f772d43726564656e7469616c733a2074727565)(4163636573732d436f6e74726f6c2d416c6c6f772d4d6574686f64733a204745542c20504f5354)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "200"
+      },
+      {
+        "response": "OK"
+      },
+      {
+        "Server": "openresty"
+      },
+      {
+        "Date": ""
+      },
+      {
+        "Content-Type": ""
+      },
+      {
+        "Connection": "keep-alive"
+      },
+      {
+        "Access-Control-Allow-Credentials": "true"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.1",
+  "dst_ip": "10.0.3.12",
+  "src_port": 48508,
+  "dst_port": 15020,
+  "protocol": 6,
+  "event_start": 1592677352.124957,
+  "fingerprints": {
+    "tcp": "(a668)(0204058c)(04)(08)(01)(030307)"
+  }
+}, {
+  "src_ip": "10.0.3.1",
+  "dst_ip": "10.0.3.12",
+  "src_port": 48508,
+  "dst_port": 15020,
+  "protocol": 6,
+  "event_start": 1592677352.125237,
+  "fingerprints": {
+    "http": "(474554)(485454502f312e31)(486f7374)(557365722d4167656e74)(4163636570742d456e636f64696e673a20677a6970)(436f6e6e656374696f6e3a20636c6f7365)"
+  },
+  "http": {
+    "uri": "/healthz/ready",
+    "host": "10.0.3.12:15020",
+    "user_agent": "kube-probe/1.16+"
+  },
+  "readable": {
+    "http": [{
+        "method": "GET"
+      },
+      {
+        "version": "HTTP/1.1"
+      },
+      {
+        "Host": ""
+      },
+      {
+        "User-Agent": ""
+      },
+      {
+        "Accept-Encoding": "gzip"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "10.0.3.1",
+  "src_port": 15020,
+  "dst_port": 48508,
+  "protocol": 6,
+  "event_start": 1592677352.126173,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323030)(4f4b)(44617465)(436f6e6e656374696f6e3a20636c6f7365)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "200"
+      },
+      {
+        "response": "OK"
+      },
+      {
+        "Date": ""
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.4.0.18",
+  "dst_ip": "10.0.3.12",
+  "src_port": 9411,
+  "dst_port": 57022,
+  "protocol": 6,
+  "event_start": 1592677353.088535,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323032)(4163636570746564)(44617465)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "202"
+      },
+      {
+        "response": "Accepted"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.4.0.18",
+  "dst_ip": "10.0.3.12",
+  "src_port": 9411,
+  "dst_port": 57024,
+  "protocol": 6,
+  "event_start": 1592677353.136436,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323032)(4163636570746564)(44617465)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "202"
+      },
+      {
+        "response": "Accepted"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "37.139.20.5",
+  "src_port": 46818,
+  "dst_port": 80,
+  "protocol": 6,
+  "event_start": 1592677353.5292,
+  "fingerprints": {
+    "http": "(474554)(485454502f312e31)(686f7374)(757365722d6167656e74)(6163636570742d656e636f64696e673a20677a69702c206465666c617465)(6163636570743a202a2f2a)"
+  },
+  "http": {
+    "uri": "/data/2.5/weather?q=Malang&appid=947eb74ab694945d3f9b228bd8250d5a&units=metric",
+    "host": "api.openweathermap.org",
+    "user_agent": "python-requests/2.22.0"
+  },
+  "readable": {
+    "http": [{
+        "method": "GET"
+      },
+      {
+        "version": "HTTP/1.1"
+      },
+      {
+        "host": ""
+      },
+      {
+        "user-agent": ""
+      },
+      {
+        "accept-encoding": "gzip, deflate"
+      }
+    ]
+  }
+}, {
+  "src_ip": "37.139.20.5",
+  "dst_ip": "10.0.3.12",
+  "src_port": 80,
+  "dst_port": 46818,
+  "protocol": 6,
+  "event_start": 1592677353.832088,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323030)(4f4b)(5365727665723a206f70656e7265737479)(44617465)(436f6e74656e742d54797065)(436f6e6e656374696f6e3a206b6565702d616c697665)(4163636573732d436f6e74726f6c2d416c6c6f772d43726564656e7469616c733a2074727565)(4163636573732d436f6e74726f6c2d416c6c6f772d4d6574686f64733a204745542c20504f5354)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "200"
+      },
+      {
+        "response": "OK"
+      },
+      {
+        "Server": "openresty"
+      },
+      {
+        "Date": ""
+      },
+      {
+        "Content-Type": ""
+      },
+      {
+        "Connection": "keep-alive"
+      },
+      {
+        "Access-Control-Allow-Credentials": "true"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.1",
+  "dst_ip": "10.0.3.12",
+  "src_port": 48520,
+  "dst_port": 15020,
+  "protocol": 6,
+  "event_start": 1592677354.124885,
+  "fingerprints": {
+    "tcp": "(a668)(0204058c)(04)(08)(01)(030307)"
+  }
+}, {
+  "src_ip": "10.0.3.1",
+  "dst_ip": "10.0.3.12",
+  "src_port": 48520,
+  "dst_port": 15020,
+  "protocol": 6,
+  "event_start": 1592677354.125083,
+  "fingerprints": {
+    "http": "(474554)(485454502f312e31)(486f7374)(557365722d4167656e74)(4163636570742d456e636f64696e673a20677a6970)(436f6e6e656374696f6e3a20636c6f7365)"
+  },
+  "http": {
+    "uri": "/healthz/ready",
+    "host": "10.0.3.12:15020",
+    "user_agent": "kube-probe/1.16+"
+  },
+  "readable": {
+    "http": [{
+        "method": "GET"
+      },
+      {
+        "version": "HTTP/1.1"
+      },
+      {
+        "Host": ""
+      },
+      {
+        "User-Agent": ""
+      },
+      {
+        "Accept-Encoding": "gzip"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "10.0.3.1",
+  "src_port": 15020,
+  "dst_port": 48520,
+  "protocol": 6,
+  "event_start": 1592677354.126401,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323030)(4f4b)(44617465)(436f6e6e656374696f6e3a20636c6f7365)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "200"
+      },
+      {
+        "response": "OK"
+      },
+      {
+        "Date": ""
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.1",
+  "dst_ip": "10.0.3.12",
+  "src_port": 48524,
+  "dst_port": 15020,
+  "protocol": 6,
+  "event_start": 1592677356.124949,
+  "fingerprints": {
+    "tcp": "(a668)(0204058c)(04)(08)(01)(030307)"
+  }
+}, {
+  "src_ip": "10.0.3.1",
+  "dst_ip": "10.0.3.12",
+  "src_port": 48524,
+  "dst_port": 15020,
+  "protocol": 6,
+  "event_start": 1592677356.125198,
+  "fingerprints": {
+    "http": "(474554)(485454502f312e31)(486f7374)(557365722d4167656e74)(4163636570742d456e636f64696e673a20677a6970)(436f6e6e656374696f6e3a20636c6f7365)"
+  },
+  "http": {
+    "uri": "/healthz/ready",
+    "host": "10.0.3.12:15020",
+    "user_agent": "kube-probe/1.16+"
+  },
+  "readable": {
+    "http": [{
+        "method": "GET"
+      },
+      {
+        "version": "HTTP/1.1"
+      },
+      {
+        "Host": ""
+      },
+      {
+        "User-Agent": ""
+      },
+      {
+        "Accept-Encoding": "gzip"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "10.0.3.1",
+  "src_port": 15020,
+  "dst_port": 48524,
+  "protocol": 6,
+  "event_start": 1592677356.126153,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323030)(4f4b)(44617465)(436f6e6e656374696f6e3a20636c6f7365)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "200"
+      },
+      {
+        "response": "OK"
+      },
+      {
+        "Date": ""
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "37.139.1.159",
+  "src_port": 50392,
+  "dst_port": 80,
+  "protocol": 6,
+  "event_start": 1592677356.389141,
+  "fingerprints": {
+    "tcp": "(a668)(0204058c)(04)(08)(01)(030307)"
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "37.139.1.159",
+  "src_port": 50392,
+  "dst_port": 80,
+  "protocol": 6,
+  "event_start": 1592677356.695519,
+  "fingerprints": {
+    "http": "(474554)(485454502f312e31)(686f7374)(757365722d6167656e74)(6163636570742d656e636f64696e673a20677a69702c206465666c617465)(6163636570743a202a2f2a)"
+  },
+  "http": {
+    "uri": "/data/2.5/weather?q=Malang&appid=947eb74ab694945d3f9b228bd8250d5a&units=metric",
+    "host": "api.openweathermap.org",
+    "user_agent": "python-requests/2.22.0"
+  },
+  "readable": {
+    "http": [{
+        "method": "GET"
+      },
+      {
+        "version": "HTTP/1.1"
+      },
+      {
+        "host": ""
+      },
+      {
+        "user-agent": ""
+      },
+      {
+        "accept-encoding": "gzip, deflate"
+      }
+    ]
+  }
+}, {
+  "src_ip": "37.139.1.159",
+  "dst_ip": "10.0.3.12",
+  "src_port": 80,
+  "dst_port": 50392,
+  "protocol": 6,
+  "event_start": 1592677357.002047,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323030)(4f4b)(5365727665723a206f70656e7265737479)(44617465)(436f6e74656e742d54797065)(436f6e6e656374696f6e3a206b6565702d616c697665)(4163636573732d436f6e74726f6c2d416c6c6f772d43726564656e7469616c733a2074727565)(4163636573732d436f6e74726f6c2d416c6c6f772d4d6574686f64733a204745542c20504f5354)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "200"
+      },
+      {
+        "response": "OK"
+      },
+      {
+        "Server": "openresty"
+      },
+      {
+        "Date": ""
+      },
+      {
+        "Content-Type": ""
+      },
+      {
+        "Connection": "keep-alive"
+      },
+      {
+        "Access-Control-Allow-Credentials": "true"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.4.0.18",
+  "dst_ip": "10.0.3.12",
+  "src_port": 9411,
+  "dst_port": 57022,
+  "protocol": 6,
+  "event_start": 1592677358.088106,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323032)(4163636570746564)(44617465)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "202"
+      },
+      {
+        "response": "Accepted"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.1",
+  "dst_ip": "10.0.3.12",
+  "src_port": 48538,
+  "dst_port": 15020,
+  "protocol": 6,
+  "event_start": 1592677358.124924,
+  "fingerprints": {
+    "tcp": "(a668)(0204058c)(04)(08)(01)(030307)"
+  }
+}, {
+  "src_ip": "10.0.3.1",
+  "dst_ip": "10.0.3.12",
+  "src_port": 48538,
+  "dst_port": 15020,
+  "protocol": 6,
+  "event_start": 1592677358.125161,
+  "fingerprints": {
+    "http": "(474554)(485454502f312e31)(486f7374)(557365722d4167656e74)(4163636570742d456e636f64696e673a20677a6970)(436f6e6e656374696f6e3a20636c6f7365)"
+  },
+  "http": {
+    "uri": "/healthz/ready",
+    "host": "10.0.3.12:15020",
+    "user_agent": "kube-probe/1.16+"
+  },
+  "readable": {
+    "http": [{
+        "method": "GET"
+      },
+      {
+        "version": "HTTP/1.1"
+      },
+      {
+        "Host": ""
+      },
+      {
+        "User-Agent": ""
+      },
+      {
+        "Accept-Encoding": "gzip"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "10.0.3.1",
+  "src_port": 15020,
+  "dst_port": 48538,
+  "protocol": 6,
+  "event_start": 1592677358.126562,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323030)(4f4b)(44617465)(436f6e6e656374696f6e3a20636c6f7365)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "200"
+      },
+      {
+        "response": "OK"
+      },
+      {
+        "Date": ""
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.4.0.18",
+  "dst_ip": "10.0.3.12",
+  "src_port": 9411,
+  "dst_port": 57024,
+  "protocol": 6,
+  "event_start": 1592677358.136851,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323032)(4163636570746564)(44617465)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "202"
+      },
+      {
+        "response": "Accepted"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "82.196.7.246",
+  "src_port": 35616,
+  "dst_port": 80,
+  "protocol": 6,
+  "event_start": 1592677359.471042,
+  "fingerprints": {
+    "tcp": "(a668)(0204058c)(04)(08)(01)(030307)"
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "82.196.7.246",
+  "src_port": 35616,
+  "dst_port": 80,
+  "protocol": 6,
+  "event_start": 1592677359.774386,
+  "fingerprints": {
+    "http": "(474554)(485454502f312e31)(686f7374)(757365722d6167656e74)(6163636570742d656e636f64696e673a20677a69702c206465666c617465)(6163636570743a202a2f2a)"
+  },
+  "http": {
+    "uri": "/data/2.5/weather?q=Malang&appid=947eb74ab694945d3f9b228bd8250d5a&units=metric",
+    "host": "api.openweathermap.org",
+    "user_agent": "python-requests/2.22.0"
+  },
+  "readable": {
+    "http": [{
+        "method": "GET"
+      },
+      {
+        "version": "HTTP/1.1"
+      },
+      {
+        "host": ""
+      },
+      {
+        "user-agent": ""
+      },
+      {
+        "accept-encoding": "gzip, deflate"
+      }
+    ]
+  }
+}, {
+  "src_ip": "82.196.7.246",
+  "dst_ip": "10.0.3.12",
+  "src_port": 80,
+  "dst_port": 35616,
+  "protocol": 6,
+  "event_start": 1592677360.077738,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323030)(4f4b)(5365727665723a206f70656e7265737479)(44617465)(436f6e74656e742d54797065)(436f6e6e656374696f6e3a206b6565702d616c697665)(4163636573732d436f6e74726f6c2d416c6c6f772d43726564656e7469616c733a2074727565)(4163636573732d436f6e74726f6c2d416c6c6f772d4d6574686f64733a204745542c20504f5354)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "200"
+      },
+      {
+        "response": "OK"
+      },
+      {
+        "Server": "openresty"
+      },
+      {
+        "Date": ""
+      },
+      {
+        "Content-Type": ""
+      },
+      {
+        "Connection": "keep-alive"
+      },
+      {
+        "Access-Control-Allow-Credentials": "true"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.1",
+  "dst_ip": "10.0.3.12",
+  "src_port": 48546,
+  "dst_port": 15020,
+  "protocol": 6,
+  "event_start": 1592677360.1249,
+  "fingerprints": {
+    "tcp": "(a668)(0204058c)(04)(08)(01)(030307)"
+  }
+}, {
+  "src_ip": "10.0.3.1",
+  "dst_ip": "10.0.3.12",
+  "src_port": 48546,
+  "dst_port": 15020,
+  "protocol": 6,
+  "event_start": 1592677360.125144,
+  "fingerprints": {
+    "http": "(474554)(485454502f312e31)(486f7374)(557365722d4167656e74)(4163636570742d456e636f64696e673a20677a6970)(436f6e6e656374696f6e3a20636c6f7365)"
+  },
+  "http": {
+    "uri": "/healthz/ready",
+    "host": "10.0.3.12:15020",
+    "user_agent": "kube-probe/1.16+"
+  },
+  "readable": {
+    "http": [{
+        "method": "GET"
+      },
+      {
+        "version": "HTTP/1.1"
+      },
+      {
+        "Host": ""
+      },
+      {
+        "User-Agent": ""
+      },
+      {
+        "Accept-Encoding": "gzip"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "10.0.3.1",
+  "src_port": 15020,
+  "dst_port": 48546,
+  "protocol": 6,
+  "event_start": 1592677360.126119,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323030)(4f4b)(44617465)(436f6e6e656374696f6e3a20636c6f7365)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "200"
+      },
+      {
+        "response": "OK"
+      },
+      {
+        "Date": ""
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.1",
+  "dst_ip": "10.0.3.12",
+  "src_port": 48554,
+  "dst_port": 15020,
+  "protocol": 6,
+  "event_start": 1592677362.124832,
+  "fingerprints": {
+    "tcp": "(a668)(0204058c)(04)(08)(01)(030307)"
+  }
+}, {
+  "src_ip": "10.0.3.1",
+  "dst_ip": "10.0.3.12",
+  "src_port": 48554,
+  "dst_port": 15020,
+  "protocol": 6,
+  "event_start": 1592677362.12506,
+  "fingerprints": {
+    "http": "(474554)(485454502f312e31)(486f7374)(557365722d4167656e74)(4163636570742d456e636f64696e673a20677a6970)(436f6e6e656374696f6e3a20636c6f7365)"
+  },
+  "http": {
+    "uri": "/healthz/ready",
+    "host": "10.0.3.12:15020",
+    "user_agent": "kube-probe/1.16+"
+  },
+  "readable": {
+    "http": [{
+        "method": "GET"
+      },
+      {
+        "version": "HTTP/1.1"
+      },
+      {
+        "Host": ""
+      },
+      {
+        "User-Agent": ""
+      },
+      {
+        "Accept-Encoding": "gzip"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "10.0.3.1",
+  "src_port": 15020,
+  "dst_port": 48554,
+  "protocol": 6,
+  "event_start": 1592677362.126644,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323030)(4f4b)(44617465)(436f6e6e656374696f6e3a20636c6f7365)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "200"
+      },
+      {
+        "response": "OK"
+      },
+      {
+        "Date": ""
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.4.0.18",
+  "dst_ip": "10.0.3.12",
+  "src_port": 9411,
+  "dst_port": 57024,
+  "protocol": 6,
+  "event_start": 1592677363.141491,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323032)(4163636570746564)(44617465)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "202"
+      },
+      {
+        "response": "Accepted"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.1",
+  "dst_ip": "10.0.3.12",
+  "src_port": 48568,
+  "dst_port": 15020,
+  "protocol": 6,
+  "event_start": 1592677364.124973,
+  "fingerprints": {
+    "tcp": "(a668)(0204058c)(04)(08)(01)(030307)"
+  }
+}, {
+  "src_ip": "10.0.3.1",
+  "dst_ip": "10.0.3.12",
+  "src_port": 48568,
+  "dst_port": 15020,
+  "protocol": 6,
+  "event_start": 1592677364.125296,
+  "fingerprints": {
+    "http": "(474554)(485454502f312e31)(486f7374)(557365722d4167656e74)(4163636570742d456e636f64696e673a20677a6970)(436f6e6e656374696f6e3a20636c6f7365)"
+  },
+  "http": {
+    "uri": "/healthz/ready",
+    "host": "10.0.3.12:15020",
+    "user_agent": "kube-probe/1.16+"
+  },
+  "readable": {
+    "http": [{
+        "method": "GET"
+      },
+      {
+        "version": "HTTP/1.1"
+      },
+      {
+        "Host": ""
+      },
+      {
+        "User-Agent": ""
+      },
+      {
+        "Accept-Encoding": "gzip"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "10.0.3.1",
+  "src_port": 15020,
+  "dst_port": 48568,
+  "protocol": 6,
+  "event_start": 1592677364.126288,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323030)(4f4b)(44617465)(436f6e6e656374696f6e3a20636c6f7365)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "200"
+      },
+      {
+        "response": "OK"
+      },
+      {
+        "Date": ""
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.10",
+  "dst_ip": "10.0.3.12",
+  "src_port": 39382,
+  "dst_port": 15090,
+  "protocol": 6,
+  "event_start": 1592677365.048499,
+  "fingerprints": {
+    "http": "(474554)(485454502f312e31)(486f7374)(557365722d4167656e74)(4163636570743a206170706c69636174696f6e2f6f70656e6d6574726963732d746578743b2076657273696f6e3d302e302e312c746578742f706c61696e3b76657273696f6e3d302e302e343b713d302e352c2a2f2a3b713d302e31)(4163636570742d456e636f64696e673a20677a6970)"
+  },
+  "http": {
+    "uri": "/stats/prometheus",
+    "host": "10.0.3.12:15090",
+    "user_agent": "Prometheus/2.12.0"
+  },
+  "readable": {
+    "http": [{
+        "method": "GET"
+      },
+      {
+        "version": "HTTP/1.1"
+      },
+      {
+        "Host": ""
+      },
+      {
+        "User-Agent": ""
+      },
+      {
+        "Accept": "application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "10.0.3.10",
+  "src_port": 15090,
+  "dst_port": 39382,
+  "protocol": 6,
+  "event_start": 1592677365.050488,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323030)(4f4b)(636f6e74656e742d74797065)(63616368652d636f6e74726f6c3a206e6f2d63616368652c206d61782d6167653d30)(64617465)(7365727665723a20656e766f79)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "200"
+      },
+      {
+        "response": "OK"
+      },
+      {
+        "content-type": ""
+      },
+      {
+        "cache-control": "no-cache, max-age=0"
+      },
+      {
+        "date": ""
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.1",
+  "dst_ip": "10.0.3.12",
+  "src_port": 48574,
+  "dst_port": 15020,
+  "protocol": 6,
+  "event_start": 1592677366.124916,
+  "fingerprints": {
+    "tcp": "(a668)(0204058c)(04)(08)(01)(030307)"
+  }
+}, {
+  "src_ip": "10.0.3.1",
+  "dst_ip": "10.0.3.12",
+  "src_port": 48574,
+  "dst_port": 15020,
+  "protocol": 6,
+  "event_start": 1592677366.125142,
+  "fingerprints": {
+    "http": "(474554)(485454502f312e31)(486f7374)(557365722d4167656e74)(4163636570742d456e636f64696e673a20677a6970)(436f6e6e656374696f6e3a20636c6f7365)"
+  },
+  "http": {
+    "uri": "/healthz/ready",
+    "host": "10.0.3.12:15020",
+    "user_agent": "kube-probe/1.16+"
+  },
+  "readable": {
+    "http": [{
+        "method": "GET"
+      },
+      {
+        "version": "HTTP/1.1"
+      },
+      {
+        "Host": ""
+      },
+      {
+        "User-Agent": ""
+      },
+      {
+        "Accept-Encoding": "gzip"
+      }
+    ]
+  }
+}, {
+  "src_ip": "10.0.3.12",
+  "dst_ip": "10.0.3.1",
+  "src_port": 15020,
+  "dst_port": 48574,
+  "protocol": 6,
+  "event_start": 1592677366.129853,
+  "fingerprints": {
+    "http_server": "(485454502f312e31)(323030)(4f4b)(44617465)(436f6e6e656374696f6e3a20636c6f7365)"
+  },
+  "readable": {
+    "http_server": [{
+        "version": "HTTP/1.1"
+      },
+      {
+        "code": "200"
+      },
+      {
+        "response": "OK"
+      },
+      {
+        "Date": ""
+      }
+    ]
+  }
+}]
