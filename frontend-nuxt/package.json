@@ -14,10 +14,10 @@
     "axios": "^0.21.2",
     "bootstrap": "^4.4.1",
     "jquery": "^3.5.0",
-    "nuxt": "^2.11.0",
+    "nuxt": "^3.0.0",
     "popper.js": "^1.16.0"
   },
   "devDependencies": {
-    "@nuxtjs/vuetify": "^1.10.2"
+    "@nuxtjs/vuetify": "^1.12.3"
   }
 }
